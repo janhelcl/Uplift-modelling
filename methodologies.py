@@ -124,7 +124,7 @@ def true_lift_approach(X: np.ndarray,
     
     
 def _add_cross(X: np.ndarray) -> np.ndarray:
-    """docs
+    """Adds cross faetures X*treatment to the array
     """
     X = X.copy()
     X_cross = X[:,:-1].copy()
